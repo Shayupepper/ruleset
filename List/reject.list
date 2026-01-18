@@ -1,4 +1,4 @@
-// 2025-08-22 00:29
+// 2026-01-18 14:21
 
 DOMAIN-SUFFIX,a.market.xiaomi.com
 DOMAIN-SUFFIX,a.realsrv.com
@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,abtest-ch.snssdk.com
 DOMAIN-SUFFIX,ad-sdk-config.youdao.com
 DOMAIN-SUFFIX,ad-splash.hktvmall.com
 DOMAIN-SUFFIX,ad.12306.cn
-DOMAIN-SUFFIX,ad.api.3g.youku.com
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,ad.doubleclick.net
 DOMAIN-SUFFIX,ad.partner.gifshow.com
@@ -26,12 +25,13 @@ DOMAIN-SUFFIX,adexp.liftoff.io
 DOMAIN-SUFFIX,adexpo.tencentmusic.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adm.funshion.com
-DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,adscdn.baidu.com
+DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,adscope.com
 DOMAIN-SUFFIX,adscope.com.cn
 DOMAIN-SUFFIX,adserviceretry.kugou.com
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
+DOMAIN-SUFFIX,adsmind.ugdtimg.com
 DOMAIN-SUFFIX,adsmoloco.com
 DOMAIN-SUFFIX,adsp.xunlei.com
 DOMAIN-SUFFIX,adstats.tencentmusic.com
@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,advertising-api.amazon.com
 DOMAIN-SUFFIX,adview.cn
 DOMAIN-SUFFIX,adx-bj-anythinktech.com
 DOMAIN-SUFFIX,adx-cn.anythinktech.com
+DOMAIN-SUFFIX,adx-core.youku.com
 DOMAIN-SUFFIX,adx-open-service.youku.com
 DOMAIN-SUFFIX,adx-os.anythinktech.com
 DOMAIN-SUFFIX,aegis.qq.com
@@ -59,6 +60,7 @@ DOMAIN-SUFFIX,baiduace.com
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,baidutv.baidu.com
 DOMAIN-SUFFIX,baiduyubaidu.com
+DOMAIN-SUFFIX,bgg.baidu.com
 DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,cbjs.baidu.com
 DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
@@ -72,8 +74,8 @@ DOMAIN-SUFFIX,creative.myavlive.com
 DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,d.applovin.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
-DOMAIN-SUFFIX,dm.toutiao.com
 DOMAIN-SUFFIX,dig.bdurl.net
+DOMAIN-SUFFIX,dm.toutiao.com
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,duclick.baidu.com
 DOMAIN-SUFFIX,dxp.baidu.com
@@ -138,17 +140,20 @@ DOMAIN-SUFFIX,open.e.kuaishou.com
 DOMAIN-SUFFIX,open.kuaishouzt.com
 DOMAIN-SUFFIX,open.kwaizt.com
 DOMAIN-SUFFIX,openspeech.cn
+DOMAIN-SUFFIX,p-log.ykimg.com
 DOMAIN-SUFFIX,p1-lm.adkwai.com
 DOMAIN-SUFFIX,p2-lm.adkwai.com
 DOMAIN-SUFFIX,p3-lm.adkwai.com
 DOMAIN-SUFFIX,pagead2.googleadservices.com
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,partner.uc.cn
 DOMAIN-SUFFIX,pcdn.yximgs.com
 DOMAIN-SUFFIX,pgdt.gtimg.cn
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,prod-mediate-events.applovin.com
 DOMAIN-SUFFIX,pups.bdimg.com
 DOMAIN-SUFFIX,res1.applovin.com
+DOMAIN-SUFFIX,rhdc-acs.youku.com
 DOMAIN-SUFFIX,rt.applovin.com
 DOMAIN-SUFFIX,s.amazon-adsystem.com
 DOMAIN-SUFFIX,sclick.baidu.com
@@ -163,6 +168,7 @@ DOMAIN-SUFFIX,t-bestmind.com
 DOMAIN-SUFFIX,t.applovin.com
 DOMAIN-SUFFIX,t.track.ad.xiaomi.com
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,tdrec.youku.com
 DOMAIN-SUFFIX,tencent-dtv.m.cn.miaozhen.com
 DOMAIN-SUFFIX,tk.anythinktech.com
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com
@@ -173,7 +179,9 @@ DOMAIN-SUFFIX,track.uc.cn
 DOMAIN-SUFFIX,tracker.ai.xiaomi.com
 DOMAIN-SUFFIX,tuijian.baidu.com
 DOMAIN-SUFFIX,tuisong.baidu.com
+DOMAIN-SUFFIX,ubixioe.com
 DOMAIN-SUFFIX,ucstat.baidu.com
+DOMAIN-SUFFIX,uczzd.cn
 DOMAIN-SUFFIX,ugdtimg.com
 DOMAIN-SUFFIX,ulog.imap.baidu.com
 DOMAIN-SUFFIX,umeng.com
@@ -188,6 +196,9 @@ DOMAIN-SUFFIX,wxa.wxs.qq.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,xlog.jd.com
 DOMAIN-SUFFIX,xxxjmp.com
+DOMAIN-SUFFIX,yk-ssp.ad.youku.com
+DOMAIN-SUFFIX,ykad-data.youku.com
+DOMAIN-SUFFIX,zconfig.alibabausercontent.com
 DOMAIN-SUFFIX,zeus.ad.xiaomi.com
 DOMAIN-SUFFIX,zhangyuyidong.cn
 DOMAIN-KEYWORD,-ad.video.yximgs.com

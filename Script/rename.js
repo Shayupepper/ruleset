@@ -1,4 +1,4 @@
-// 2026-02-09 08:44
+// 2026-02-09 11:01
 
 /**
  * #out=zh&flag=true
@@ -19,17 +19,17 @@ function boolArg(v, d = false) {
   return !!v;
 }
 
-const nx     = boolArg(inArg.nx, false),     // 删除倍率
-      bl     = boolArg(inArg.bl, false),     // 统一显示倍率
+const nx     = boolArg(inArg.nx, false),
+      bl     = boolArg(inArg.bl, false),
       nf     = boolArg(inArg.nf, false),
-      key    = boolArg(inArg.key, false),    // 关键地区过滤
-      blgd   = boolArg(inArg.blgd, true),    // 默认开启识别专线/游戏
-      blpx   = boolArg(inArg.blpx, true),    // 默认开启专线节点自动置顶排序
-      blnx   = boolArg(inArg.blnx, false),   // 仅保留倍率节点
-      numone = boolArg(inArg.one, false),    // 单一节点去掉 01
+      key    = boolArg(inArg.key, false),
+      blgd   = boolArg(inArg.blgd, false),
+      blpx   = boolArg(inArg.blpx, false),
+      blnx   = boolArg(inArg.blnx, false),
+      numone = boolArg(inArg.one, false),
       debug  = boolArg(inArg.debug, false),
-      clear  = boolArg(inArg.clear, true),    // 默认开启：清理广告/通知节点
-      addflag= boolArg(inArg.flag, true),    // 默认开启：显示国旗
+      clear  = boolArg(inArg.clear, true),
+      addflag= boolArg(inArg.flag, true),
       nm     = boolArg(inArg.nm, false);
 
 const ABSMODE = (inArg.abs || "en").toLowerCase();
@@ -95,8 +95,6 @@ const rurekey = {
   家宽: /家庭宽带|家庭|住宅/g,
   索马里: /索马里|Somalia|Somali/gi, 
   马里: /(?<!索)马里(?!.*索马里)/g,
-  刚果(金) /扎伊尔|Zaire|刚果共和国/g,
-  刚果(布): /刚果共和国/g,
 };
 
 let GetK = false, AMK = [];

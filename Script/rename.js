@@ -1,35 +1,8 @@
-// 2026-02-09 07:55
+// 2026-02-09 08:44
 
 /**
-// 示例#flag&out=zh
- * in=zh      中文输入识别（香港）
- * in=us      EN码输入（HK）
- * in=quan    英文全称输入（Hong Kong）
- * in=flag    Emoji输入(🇭🇰)
- *
- * out=zh     输出中文（默认）
- * out=us     输出EN码（HK）
- * out=quan   输出英文全称（Hong Kong）
- * out=flag   输出Emoji(🇭🇰)
- *
- * flag=true  地区前加国旗
- * flag=false 不加（默认）
- *
- * abs=en     英文字母边界匹配（默认）
- * abs=all    全关键词匹配
- * abs=off    关闭边界匹配
- *
- * clear=true 清理信息节点（默认）
- * nx=true    删除高倍率节点
- * blnx=true  仅保留高倍率节点
- * key=true   启用关键地区过滤
- *
- * bl=true    统一倍率显示（如 3×）
- * blgd=true  识别专线/游戏等标签
- * blpx=true  专线节点前置排序
- * one=true   单一节点去掉 01
- *
- * blockquic=on/off  强制控制 block-quic
+ * #out=zh&flag=true
+ * in/out: zh(香港) | us(HK) | quan(Hong Kong) | flag(🇭🇰)
  */
 
 const inArg = $arguments;
@@ -46,17 +19,17 @@ function boolArg(v, d = false) {
   return !!v;
 }
 
-const nx     = boolArg(inArg.nx, false),
-      bl     = boolArg(inArg.bl, false),
+const nx     = boolArg(inArg.nx, false),     // 删除倍率
+      bl     = boolArg(inArg.bl, false),     // 统一显示倍率
       nf     = boolArg(inArg.nf, false),
-      key    = boolArg(inArg.key, false),
-      blgd   = boolArg(inArg.blgd, false),
-      blpx   = boolArg(inArg.blpx, false),
-      blnx   = boolArg(inArg.blnx, false),
-      numone = boolArg(inArg.one, false),
+      key    = boolArg(inArg.key, false),    // 关键地区过滤
+      blgd   = boolArg(inArg.blgd, true),    // 默认开启识别专线/游戏
+      blpx   = boolArg(inArg.blpx, true),    // 默认开启专线节点自动置顶排序
+      blnx   = boolArg(inArg.blnx, false),   // 仅保留倍率节点
+      numone = boolArg(inArg.one, false),    // 单一节点去掉 01
       debug  = boolArg(inArg.debug, false),
-      clear  = boolArg(inArg.clear, true),
-      addflag= boolArg(inArg.flag, true),
+      clear  = boolArg(inArg.clear, true),    // 默认开启：清理广告/通知节点
+      addflag= boolArg(inArg.flag, true),    // 默认开启：显示国旗
       nm     = boolArg(inArg.nm, false);
 
 const ABSMODE = (inArg.abs || "en").toLowerCase();

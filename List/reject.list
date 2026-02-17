@@ -1,4 +1,4 @@
-// 2025-02-17 00:49
+// 2026-02-17 08:14
 
 DOMAIN-KEYWORD,-ad.video.yximgs.com
 DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com
@@ -35,13 +35,7 @@ DOMAIN-SUFFIX,adashx.m.taobao.com
 DOMAIN-SUFFIX,adcdn.tencentmusic.com
 DOMAIN-SUFFIX,adcdn6.tencentmusic.com
 DOMAIN-SUFFIX,adclick.tencentmusic.com
-DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,addata.jd.com
-DOMAIN-SUFFIX,adexp.chinaliftoff.io
-DOMAIN-SUFFIX,adexp.liftoff.io
-DOMAIN-SUFFIX,adexpo.tencentmusic.com
-DOMAIN-SUFFIX,adjust.com
-DOMAIN-SUFFIX,adm.funshion.com
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,ads.uutest.cn
@@ -51,7 +45,6 @@ DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,adserviceretry.kugou.com
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
 DOMAIN-SUFFIX,adsmind.ugdtimg.com
-DOMAIN-SUFFIX,adsmoloco.com
 DOMAIN-SUFFIX,adsp.xunlei.com
 DOMAIN-SUFFIX,adscope.com
 DOMAIN-SUFFIX,adscope.com.cn
@@ -85,16 +78,13 @@ DOMAIN-SUFFIX,baichuan.baidu.com
 DOMAIN-SUFFIX,baiduace.com
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,baidutv.baidu.com
-DOMAIN-SUFFIX,baiduyubaidu.com
 DOMAIN-SUFFIX,bgg.baidu.com
 DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,cbjs.baidu.com
 DOMAIN-SUFFIX,ccs.umeng.com
 DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com
-DOMAIN-SUFFIX,cdn-f.adsmoloco.com
 DOMAIN-SUFFIX,cert.org.cn
 DOMAIN-SUFFIX,certlab.org
-DOMAIN-SUFFIX,china-bestmind.com
 DOMAIN-SUFFIX,cnlogs.umeng.com
 DOMAIN-SUFFIX,cnlogs.umengcloud.com
 DOMAIN-SUFFIX,cpro.baidu.com
@@ -134,12 +124,9 @@ DOMAIN-SUFFIX,gorgon.yhucdn.com
 DOMAIN-SUFFIX,gwp.xiaojukeji.com
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,hailiangyun.cn
-DOMAIN-SUFFIX,hei-tong.com
 DOMAIN-SUFFIX,hicore-auth.com
 DOMAIN-SUFFIX,himindtech.com
 DOMAIN-SUFFIX,hm.baidu.com
-DOMAIN-SUFFIX,i-bestmind.com
-DOMAIN-SUFFIX,i.ad.xiaomi.com
 DOMAIN-SUFFIX,ics-cert.org.cn
 DOMAIN-SUFFIX,ifcert.cn
 DOMAIN-SUFFIX,ifcert.com
@@ -152,7 +139,6 @@ DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jsqmt.qq.com
 DOMAIN-SUFFIX,kepler.jd.com
 DOMAIN-SUFFIX,lh3.googleadsserving.cn
-DOMAIN-SUFFIX,loongteam.com
 DOMAIN-SUFFIX,logrcv.aiclk.com
 DOMAIN-SUFFIX,mbdlog.iqiyi.com
 DOMAIN-SUFFIX,mc.tencentmusic.com
@@ -205,7 +191,6 @@ DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,sigmob.com
 DOMAIN-SUFFIX,sngmta.qq.com
 DOMAIN-SUFFIX,snowflake.qq.com
-DOMAIN-SUFFIX,t-bestmind.com
 DOMAIN-SUFFIX,t.applovin.com
 DOMAIN-SUFFIX,t.track.ad.xiaomi.com
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
@@ -235,7 +220,6 @@ DOMAIN-SUFFIX,union.baidu.com
 DOMAIN-SUFFIX,utoken.umeng.com
 DOMAIN-SUFFIX,v.smtcdns.com
 DOMAIN-SUFFIX,video.ktkjmp.com
-DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,watson.microsoft.com
 DOMAIN-SUFFIX,webvoobssdl.kugou.com
 DOMAIN-SUFFIX,wisepush.video.baidu.com

@@ -1,0 +1,9 @@
+// 2025-12-17 13:29
+
+DOMAIN-KEYWORD,-courier.push.apple.com
+DOMAIN-WILDCARD,k*.tx.kugou.com
+DOMAIN-WILDCARD,ad*.kugou.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,trace.qq.com
+URL-REGEX,^https?:\/\/raw\.githubusercontent\.com\/Koolson\/Qure\/
+IP-CIDR,17.57.145.0/24,no-resolve

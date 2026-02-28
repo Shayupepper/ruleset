@@ -1,4 +1,4 @@
-// 2026-02-28 09:49
+// 2026-02-28 09:53
 
 const inArg = $arguments;
 const boolArg = (v, d = false) => {
@@ -172,7 +172,6 @@ const REGIONS = [
   { re: /安提瓜|\bAG\b|\bAntigua\b|🇦🇬/i, name: "安提瓜和巴布达", emoji: "🇦🇬" },
   { re: /圣基茨|\bKN\b|\bSaint\s?Kitts\b|🇰🇳/i, name: "圣基茨和尼维斯", emoji: "🇰🇳" },
   { re: /圣文森特|\bVC\b|\bSaint\s?Vincent\b|🇻🇨/i, name: "圣文森特和格林纳丁斯", emoji: "🇻🇨" },
-  { re: /多米尼克|\bDM\b|🇩🇲/i, name: "多米尼克", emoji: "🇩🇲" },
   { re: /库克群岛|\bCK\b|\bCook\s?Islands\b|🇨🇰/i, name: "库克群岛", emoji: "🇨🇰" },
   { re: /纽埃|\bNU\b|\bNiue\b|🇳🇺/i, name: "纽埃", emoji: "🇳🇺" },
   { re: /科索沃|\bXK\b|\bKosovo\b|🇽🇰/i, name: "科索沃", emoji: "🇽🇰" },
@@ -200,17 +199,17 @@ const REGIONS = [
   { re: /布基纳法索|\bBF\b|\bBurkina\b|🇧🇫/i, name: "布基纳法索", emoji: "🇧🇫" },
   { re: /乍得|\bTD\b|\bChad\b|🇹🇩/i, name: "乍得", emoji: "🇹🇩" },
   { re: /贝宁|\bBJ\b|\bBenin\b|🇧🇯/i, name: "贝宁", emoji: "🇧🇯" },
-  { re: /几内亚|\bGN\b|\bGuinea\b|🇬🇳/i, name: "几内亚", emoji: "🇬🇳" },
+  { re: /巴布亚|\bPG\b|\bPapua\b|🇵🇬/i, name: "巴布亚新几内亚", emoji: "🇵🇬" },
   { re: /赤道几内亚|\bGQ\b|\bEquatorial\b|🇬🇶/i, name: "赤道几内亚", emoji: "🇬🇶" },
+  { re: /几内亚|\bGN\b|\bGuinea\b|🇬🇳/i, name: "几内亚", emoji: "🇬🇳" },
   { re: /加蓬|\bGA\b|\bGabon\b|🇬🇦/i, name: "加蓬", emoji: "🇬🇦" },
-  { re: /刚果（布）|\bCG\b|\bCongo\b|🇨🇬/i, name: "刚果（布)", emoji: "🇨🇬" },
   { re: /刚果（金）|\bCD\b|\bKinshasa\b|🇨🇩/i, name: "刚果（金)", emoji: "🇨🇩" },
+  { re: /刚果（布）|\bCG\b|\bCongo\b|🇨🇬/i, name: "刚果（布)", emoji: "🇨🇬" },
   { re: /莫桑比克|\bMZ\b|\bMozambique\b|🇲🇿/i, name: "莫桑比克", emoji: "🇲🇿" },
   { re: /佛得角|\bCV\b|\bCape\s?Verde\b|🇨🇻/i, name: "佛得角", emoji: "🇨🇻" },
   { re: /吉布提|\bDJ\b|\bDjibouti\b|🇩🇯/i, name: "吉布提", emoji: "🇩🇯" },
   { re: /索马里|\bSO\b|\bSomalia\b|🇸🇴/i, name: "索马里", emoji: "🇸🇴" },
   { re: /斐济|\bFJ\b|\bFiji\b|🇫🇯/i, name: "斐济", emoji: "🇫🇯" },
-  { re: /巴布亚|\bPG\b|\bPapua\b|🇵🇬/i, name: "巴布亚新几内亚", emoji: "🇵🇬" },
   { re: /关岛|\bGU\b|\bGuam\b|🇬🇺/i, name: "关岛", emoji: "🇬🇺" },
   { re: /新喀里多尼亚|\bNC\b|\bCaledonia\b|🇳🇨/i, name: "新喀里多尼亚", emoji: "🇳🇨" },
   { re: /南极|\bAQ\b|\bAntarctica\b|🇦🇶/i, name: "南极洲", emoji: "🇦🇶" },
@@ -220,11 +219,13 @@ const REGIONS = [
   { re: /瓜德罗普|\bGP\b|\bGuadeloupe\b|🇬🇵/i, name: "瓜德罗普", emoji: "🇬🇵" },
   { re: /马约特|\bYT\b|\bMayotte\b|🇾🇹/i, name: "马约特", emoji: "🇾🇹" },
   { re: /法属圭亚那|\bGF\b|\bFrench\s?Guiana\b|🇬🇫/i, name: "法属圭亚那", emoji: "🇬🇫" },
-  { re: /维尔京群岛|\bVG\b|\bVirgin\s?Islands\b|🇻🇬/i, name: "英属维尔京群岛", emoji: "🇻🇬" },
+  { re: /英属维尔京群岛|\bVG\b|\bVirgin\s?Islands\b|🇻🇬/i, name: "英属维尔京群岛", emoji: "🇻🇬" },
   { re: /美属维尔京|\bVI\b|\bUnited\s?States\s?Virgin\b|🇻🇮/i, name: "美属维尔京群岛", emoji: "🇻🇮" },
   { re: /特克斯|\bTC\b|\bTurks\b|🇹🇨/i, name: "特克斯和凯科斯", emoji: "🇹🇨" },
   { re: /安圭拉|\bAI\b|\bAnguilla\b|🇦🇮/i, name: "安圭拉", emoji: "🇦🇮" },
   { re: /圣皮埃尔|\bPM\b|\bMiquelon\b|🇵🇲/i, name: "圣皮埃尔和密克隆", emoji: "🇵🇲" },
+  { re: /多米尼加|\bDO\b|\bDominican\b|🇩🇴/i, name: "多米尼加", emoji: "🇩🇴" },
+  { re: /多米尼克|\bDM\b|🇩🇲/i, name: "多米尼克", emoji: "🇩🇲" },
   { re: /中国|\bCN\b|\bChina\b|🇨🇳/i, name: "中国大陆", emoji: "🇨🇳" }
 ];
 

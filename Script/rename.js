@@ -1,4 +1,4 @@
-// 2026-02-28 09:40
+// 2026-02-28 09:49
 
 const inArg = $arguments;
 const boolArg = (v, d = false) => {
@@ -20,6 +20,7 @@ const REGIONS = [
   { re: /台湾|\bTW\b|\bTaiwan\b|🇹🇼/i, name: "台湾", emoji: "🇨🇳" },
   { re: /澳门|\bMO\b|\bMacao\b|🇲🇴/i, name: "澳门", emoji: "🇲🇴" },
   { re: /日本|\bJP\b|\bJapan\b|🇯🇵/i, name: "日本", emoji: "🇯🇵" },
+  { re: /朝鲜|\bKP\b|\bNorth\s?Korea\b|🇰🇵/i, name: "朝鲜", emoji: "🇰🇵" },
   { re: /韩国|\bKR\b|\bKorea\b|🇰🇷/i, name: "韩国", emoji: "🇰🇷" },
   { re: /新加坡|\bSG\b|\bSingapore\b|🇸🇬/i, name: "新加坡", emoji: "🇸🇬" },
   { re: /美国|\bUS\b|\bUSA\b|\bUnited\s?States\b|🇺🇸/i, name: "美国", emoji: "🇺🇸" },
@@ -164,7 +165,6 @@ const REGIONS = [
   { re: /纳米比亚|\bNA\b|\bNamibia\b|🇳🇦/i, name: "纳米比亚", emoji: "🇳🇦" },
   { re: /马达加斯加|\bMG\b|\bMadagascar\b|🇲🇬/i, name: "马达加斯加", emoji: "🇲🇬" },
   { re: /塞尔维亚|\bRS\b|\bSerbia\b|🇷🇸/i, name: "塞尔维亚", emoji: "🇷🇸" },
-  { re: /朝鲜|\bKP\b|\bNorth\s?Korea\b|🇰🇵/i, name: "朝鲜", emoji: "🇰🇵" },
   { re: /叙利亚|\bSY\b|\bSyria\b|🇸🇾/i, name: "叙利亚", emoji: "🇸🇾" },
   { re: /东帝汶|\bTL\b|\bTimor\b|🇹🇱/i, name: "东帝汶", emoji: "🇹🇱" },
   { re: /中非|\bCF\b|\bCentral\s?African\b|🇨🇫/i, name: "中非共和国", emoji: "🇨🇫" },

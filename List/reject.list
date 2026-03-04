@@ -1,4 +1,4 @@
-// 2026-02-28 10:49
+// 2026-03-04 16:49
 
 DOMAIN-KEYWORD,-ad.video.yximgs.com
 DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com
@@ -10,11 +10,13 @@ DOMAIN-KEYWORD,fzlm
 DOMAIN-KEYWORD,gjfzpt
 DOMAIN-KEYWORD,ifcert.cn
 DOMAIN-KEYWORD,pangolin-sdk-toutiao
-DOMAIN-KEYWORD,zijieapi.com
-DOMAIN-WILDCARD,ads-*.xhscdn.com
+DOMAIN-KEYWORD,-normal.zijieapi.com
+DOMAIN-WILDCARD,ads*.xhscdn.com
+DOMAIN-WILDCARD,ads*.zijieapi.com
 DOMAIN-WILDCARD,api-*.8ziben.com
 DOMAIN-WILDCARD,mon-*.byteoversea.com
-DOMAIN-WILDCARD,tnc*-*.snssdk.com
+DOMAIN-WILDCARD,tnc*.snssdk.com
+DOMAIN-WILDCARD,tnc*.zijieapi.com
 DOMAIN-SUFFIX,a.market.xiaomi.com
 DOMAIN-SUFFIX,a.realsrv.com
 DOMAIN-SUFFIX,aa.atianqi.com

@@ -1,0 +1,7 @@
+// 2026-03-04 17:55
+
+AND,((DOMAIN-SUFFIX,bilibili.com),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,bilivideo.com),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,cdninstagram.com),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,fbcdn.net),(PROTOCOL,QUIC))
+AND,((DOMAIN-SUFFIX,instagram.com),(PROTOCOL,QUIC))

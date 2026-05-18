@@ -1,0 +1,11 @@
+#!name=IPquery
+#!desc=IPquery
+#!system=ios
+#!arguments=组名称:必填
+#!updatetime=2026-01-09 21:07
+
+[Panel]
+IPquery = script-name=IPquery, style=info, update-interval=-1
+
+[Script]
+IPquery = type=generic, timeout=10, argument={{{组名称}}}, script-path=https://raw.githubusercontent.com/Shayupepper/ruleset/master/Script/IPquery.js, script-update-interval=-1
